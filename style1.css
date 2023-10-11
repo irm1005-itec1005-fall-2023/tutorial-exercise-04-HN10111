@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+/*<-- font-family?--> */
+
+.container {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 1px 1px 10px 1px;
+    color: #242121;
+    border-radius: 10px;
+    padding: 20px
+}
+
+.main-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-info img {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -25rem;
+}
+
+.user-info h3 {
+    font: size 1.3rem;
+}
+
+.user-info p {
+    color: #5b7083;
+}
+
+.follow-btn button {
+    position: inherit;
+     top: 0;
+     left: 1rem;
+     background-color: rgb(215, 227, 235);
+ 
+     display: block;
+     margin-top: 1rem;
+     color: rgb(77, 67, 230);
+     padding: 1rem;
+   
+     border-radius: 3rem;
+     text-decoration: none;
+     margin-left: 15rem;
+     margin-right: 1rem;
+}
+/*do we need a cursor or outline?*/
+
+.follow-btn button:haver {
+    background-color: #797e83;
+}
+/*i dont think you need this part (on top) it had s somehting to do with transition which you did not learn yet*/
+
+.user-bio {
+    color: #0f1419;
+    margin-bottom: 10px
+}
+
+.user-bio a {
+    color:#1da1f2;
+    text-decoration: none;
+}
+
+.user-bio a:hover {
+    text-decoration: underline;
+}
+/*do we need hover?*/
